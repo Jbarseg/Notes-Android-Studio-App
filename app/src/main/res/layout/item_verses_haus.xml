@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="150dp"
+    android:orientation="vertical"
+    android:elevation="90dp"
+    android:layout_margin="15dp"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="150dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/haus_logo_verse"
+            android:layout_width="110dp"
+            android:layout_height="53dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="90dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/haus_fondo_negro"/>
+
+        <TextView
+            android:id="@+id/text_verse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:text=""
+            android:textColor="@color/colorTextWhite"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/chapter_verse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="70dp"
+            android:text=""
+            android:textSize="25dp"
+            android:textColor="@color/colorTextWhite"
+            android:textStyle="bold"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

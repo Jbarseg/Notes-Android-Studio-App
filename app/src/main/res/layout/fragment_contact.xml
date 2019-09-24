@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".ContactFragment">
+
+    <TextView
+        android:id="@+id/contact_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_contact"
+        android:textSize="50sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/colorTextWhite"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/cell_number_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_title"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/cell_number"
+        android:textSize="16sp"
+        android:textColor="@color/colorTextWhite"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/social_network_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cell_number_contact"
+        android:layout_alignLeft="@id/cell_number_contact"
+        android:layout_marginTop="20dp"
+        android:text="@string/social_network_contact"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/facebook_follow_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/facebook_socialnetwork_icon_app"
+        android:background="@color/colorPrimaryDark"
+        android:layout_toRightOf="@id/social_network_contact"
+        android:layout_below="@id/cell_number_contact"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="5dp"
+        android:onClick="facebookIntent"/>
+
+    <ImageButton
+        android:id="@+id/instagram_follow_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/instagram_socialnetwork_icon_app"
+        android:background="@color/colorPrimaryDark"
+        android:layout_toRightOf="@id/facebook_follow_us"
+        android:layout_below="@id/cell_number_contact"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="5dp"
+        android:onClick="instagramIntent"/>
+
+    <TextView
+        android:id="@+id/send_email_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/social_network_contact"
+        android:layout_alignLeft="@id/cell_number_contact"
+        android:layout_marginTop="20dp"
+        android:text="@string/send_email_contact"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/issue_contact"
+        android:layout_width="307dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/send_email_contact"
+        android:layout_alignLeft="@id/cell_number_contact"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimary"
+        android:hint="Asunto"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColorHint="@color/colorTextWhite"
+        android:textColor="@color/colorTextWhite"/>
+
+    <EditText
+        android:id="@+id/description_contact"
+        android:layout_width="304dp"
+        android:layout_height="207dp"
+        android:layout_below="@id/issue_contact"
+        android:layout_alignLeft="@id/cell_number_contact"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        android:hint="Descripción"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColorHint="@color/colorTextWhite"
+        android:textColor="@color/colorTextWhite"
+        android:gravity="top"
+        android:paddingTop="20dp"
+        android:maxLines="8"/>
+
+    <Button
+        android:id="@+id/send_contact_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:layout_alignLeft="@id/cell_number_contact"
+        android:layout_below="@id/description_contact"
+        android:layout_marginTop="25dp"
+        android:text="@string/sent_text"
+        android:textColor="@color/colorTextWhite"/>
+
+
+</RelativeLayout>

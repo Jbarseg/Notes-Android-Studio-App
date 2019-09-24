@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_about">¿Quienes somos?</string>
+    <string name="menu_news">Noticias</string>
+    <string name="menu_bible">Biblia</string>
+    <string name="menu_podcasts">Podcasts</string>
+    <string name="menu_notes">Notas</string>
+    <string name="menu_contact">Contacto</string>
+    <string name="menu_logout">Cerrar sesión</string>
+
+    <string name="facebook_app_id">404008863573370</string>
+    <string name="success_login">Se ha iniciado sesión correctamente</string>
+    <string name="cancel_login">Ha ocurrido un error al iniciar sesión</string>
+    <string name="logout">Se ha cerrado sesión correctamente</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cell_number">Teléfono: +506 7163 6720</string>
+    <string name="send_email_contact">Escribenos un correo</string>
+    <string name="social_network_contact">Redes sociales:</string>
+    <string name="title_note">Titulo</string>
+    <string name="save_note">Guardar</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="notAccountYet">¿Aún no tienes una cuenta? Regístrate</string>
+    <string name="email_contact">Correo electronico: conquistadoresvidaplena@gmail.com</string>
+    <string name="description_note">Texto</string>
+    <string name="delete_note_text">Eliminar nota</string>
+    <string name="yesAccountYet">Iniciar sesión</string>
+    <string name="register_text">Registrarse</string>
+    <string name="sent_text">Enviar</string>
+    <string name="news_description">Ve las ultimas noticias acerca de nuestro ministerio y sus actividades.</string>
+    <string name="see_news">VER ULTIMAS NOTICIAS</string>
+    <string name="notes_description">Escribe tus notas sobre lo que pienses.</string>
+    <string name="see_notes">VER MIS NOTAS</string>
+    <string name="podcasts_description">Escucha nuestros podcasts para mejorar algún área de tu vida.</string>
+    <string name="see_podcasts">VER PODCASTS</string>
+    <string name="menu_verses">Versículos</string>
+    <string name="see_verses">VER VERSÍCULOS</string>
+    <string name="verses_description">Mira el versículo semanal y los versículos que veremos en nuestra mas próxima actividad.</string>
+    <string name="notesFieldsEmpty">Todos los espacios deben estar llenos.</string>
+
+</resources>

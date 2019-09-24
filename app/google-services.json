@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "481355892199",
+    "firebase_url": "https://conquistadores-850e8.firebaseio.com",
+    "project_id": "conquistadores-850e8",
+    "storage_bucket": "conquistadores-850e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481355892199:android:6fa7748160b5ef87",
+        "android_client_info": {
+          "package_name": "com.jbarseg.conquistadores"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481355892199-9tr29492ae4cvccilftmo8m3oh985k9m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jbarseg.conquistadores",
+            "certificate_hash": "d98a11d2d8762fe4b526a8543472e79a1706894a"
+          }
+        },
+        {
+          "client_id": "481355892199-dhp602412gdaumia8lr5r4te80ia71t7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD4pcduaQ4ugveJr9qN14zZnXQdpW-rUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481355892199-dhp602412gdaumia8lr5r4te80ia71t7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

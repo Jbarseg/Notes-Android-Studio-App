@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".com.jbarseg.conquistadores.com.jbarseg.conquistadores.verses.VersesActivity">
+
+    <ImageView
+        android:id="@+id/logo_conquistadores_verses"
+        android:layout_width="351dp"
+        android:layout_height="181dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo_conquistadores_en_blanco_modificado"/>
+    <TextView
+        android:id="@+id/weekly_verse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo_conquistadores_verses"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textSize="15dp"
+        android:textColor="@color/colorTextWhite"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/strip_haus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weekly_verse"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/strip"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="showHausVerses"/>
+
+    <ImageView
+        android:layout_width="138dp"
+        android:layout_height="55dp"
+        android:layout_alignLeft="@id/strip_haus"
+        android:layout_alignBottom="@id/strip_haus"
+        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/haus_fondo_negro" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/strip_haus"
+        android:layout_alignBottom="@id/strip_haus"
+        android:layout_marginBottom="27dp"
+        android:layout_marginRight="36dp"
+        android:text="@string/menu_verses"
+        android:textStyle="bold"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="25dp"/>
+
+    <ImageButton
+        android:id="@+id/strip_reu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/strip_haus"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/strip"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="showLaReuVerses"/>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="82dp"
+        android:layout_alignBottom="@id/strip_reu"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="3dp"
+        android:src="@drawable/reu" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/strip_reu"
+        android:layout_alignBottom="@id/strip_reu"
+        android:layout_marginBottom="27dp"
+        android:layout_marginRight="36dp"
+        android:text="@string/menu_verses"
+        android:textStyle="bold"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="25dp"/>
+
+    <ImageButton
+        android:id="@+id/strip_youngclasses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/strip_reu"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/strip"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="showYoungVerses"/>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="82dp"
+        android:layout_alignBottom="@id/strip_youngclasses"
+        android:layout_marginLeft="22dp"
+        android:layout_marginBottom="11dp"
+        android:src="@drawable/clases_juveniles" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/strip_youngclasses"
+        android:layout_alignBottom="@id/strip_youngclasses"
+        android:layout_marginBottom="27dp"
+        android:layout_marginRight="36dp"
+        android:text="@string/menu_verses"
+        android:textStyle="bold"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="25dp"/>
+
+</RelativeLayout>

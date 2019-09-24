@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/conquistadores_logo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="-20dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo_conquistadores_en_blanco_modificado"/>
+
+    <EditText
+        android:id="@+id/emailLogin"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/conquistadores_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-30dp"
+        android:paddingBottom="18dp"
+        android:hint="@string/email"
+        android:textColor="@color/colorTextWhite"
+        android:textColorHint="@color/colorTextWhite"/>
+
+    <EditText
+        android:id="@+id/passwordLogin"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailLogin"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="18dp"
+        android:hint="@string/password"
+        android:textColor="@color/colorTextWhite"
+        android:textColorHint="@color/colorTextWhite"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button_login"
+        android:text="@string/yesAccountYet"
+        android:textColor="@color/colorTextWhite"/>
+
+    <TextView
+        android:id="@+id/create_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginButton"
+        android:layout_marginTop="35dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/notAccountYet"
+        android:textStyle="bold"
+        android:textColor="@color/colorTextWhite"
+        android:onClick="goRegister"/>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_facebook_button"
+        android:layout_width="179dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/loginButton"
+        android:layout_marginTop="100dp"
+        android:layout_centerInParent="true"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

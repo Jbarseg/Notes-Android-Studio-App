@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".com.jbarseg.conquistadores.com.jbarseg.conquistadores.verses.VersesFragment">
+
+    <ImageView
+        android:id="@+id/icon_verses"
+        android:layout_width="137dp"
+        android:layout_height="152dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/icon_bible"/>
+
+    <TextView
+        android:id="@+id/icon_verses_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/icon_verses"
+        android:layout_marginTop="20dp"
+        android:text="@string/menu_verses"
+        android:textColor="@color/colorTextWhite"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/icon_description_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/icon_verses_title"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/verses_description"
+        android:textColor="#76706c"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <Button
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/icon_description_title"
+        android:text="@string/see_verses"
+        android:textColor="@color/colorTextWhite"
+        android:background="@drawable/rounded_button"
+        android:onClick="showVerses"/>
+
+    <ImageView
+        android:layout_width="155dp"
+        android:layout_height="107dp"
+        android:src="@drawable/logo_conquistadores_en_blanco_modificado"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>
